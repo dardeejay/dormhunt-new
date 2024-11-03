@@ -3,9 +3,11 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@globals/*": ["./globals/*"],
+      "@/*": ["./*"],
+      "@assets/*" : ["./assets/*"],
+      // "@clerk/*" : ["./node_modules/@clerk/*"]
+
     }
   },
   "include": [
